@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page 3</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Survey Page 3 of 3</h2>
+        <form action="thankyou.html">
+            <div class="row">
+                <label for="years-at-iowa">How many years have you been at Iowa?</label>
+                <div class="required-input">
+                    <input type="number" placeholder="0" id="years-at iowa" name="years-at-iowa" required min="1" max="10">
+                </div>
+            </div>
+            <fieldset>
+                <legend>Which cateogry best represents your gender (optional)</legend>
+                <label><input type="radio" name="gender" value="Man"> Man</label>
+                <label><input type="radio" name="gender" value="Woman"> Woman</label>
+                <label><input type="radio" name="gender" value="Trans Man"> Trans Man</label>
+                <label><input type="radio" name="gender" value="Trans Woman"> Trans Woman</label>
+                <label><input type="radio" name="gender" value="Genderqueer"> Genderqueer</label>
+                <label><input type="radio" name="gender" value="Gender Non-conforming"> Gender Non-conforming</label>
+                <label><input type="radio" name="gender" value="Non-binary"> Non-binary</label>
+                <label><input type="radio" name="gender" value="Multi-gender"> Multi-gender</label>
+                <label><input type="radio" name="gender" value="Decline to stat"> Decline to stat</label>
+            </fieldset>
+            <fieldset>
+                <legend>Race (optional)</legend>
+                <label><input type="checkbox" name="race" value="American Indian or Alaska Native"> American Indian or Alaska Native</label>
+                <label><input type="checkbox" name="race" value="Asian"> Asian</label>
+                <label><input type="checkbox" name="race" value="Black or African American"> Black or African American</label>
+                <label><input type="checkbox" name="race" value="Hispanic or Latino"> Hispanic or Latino</label>
+                <label><input type="checkbox" name="race" value="Native Hawaiian or Other Pacific Islander"> Native Hawaiian or Other Pacific Islander</label>
+                <label><input type="checkbox" name="race" value="White"> White</label>
+                <label><input type="checkbox" name="race" value="Other"> Other</label>
+                <label><input type="checkbox" name="race" value="Prefer not to say"> Prefer not to say</label>
+            </fieldset>
+            <button type="submit" aria-label="Next page button">Submit</button>
+        </form>
+        <div class="page-indicator">Page 3 of 3</div>
+    </div>
+</body>
+</html>
